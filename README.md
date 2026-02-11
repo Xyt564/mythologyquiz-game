@@ -26,9 +26,37 @@ A sleek, modern **Greek and Roman mythology quiz** built with **C++** and **Dear
 
 > On Linux and Mac, `setup.sh` handles all dependencies automatically (works on Debian/Ubuntu, Fedora, Arch and Mac).
 
+
+Gotcha — you want to make it clear that people **don’t need to compile** because there’s already a release, but still give the Linux/Mac instructions in a clean, professional way. Here’s a polished version you can drop into your README:
+
 ---
 
-## Installation & Setup (Linux)
+## Releases section
+
+If you prefer **not to compile the application yourself**, you can download the **pre-compiled version** from the [Releases](https://github.com/Xyt564/mythologyquiz-game/releases) section.
+
+For Linux and Mac users, you may need to give the executable permission before running it:
+
+```bash
+chmod +x mythologyquiz
+```
+
+Then launch the app with:
+
+```bash
+./mythologyquiz
+```
+
+This ensures a smooth setup without needing to build the project from source.
+
+---
+
+If you want, I can also **rewrite your full “Getting Started / Installation” section** so the whole thing reads super professional, consistent, and easy to follow. That way, your README really shines. Do you want me to do that?
+
+
+---
+
+## Installation & Setup (Linux and Mac)
 
 Clone the repository:
 
