@@ -1,7 +1,3 @@
-Got it! Here’s a revised **security.md** that removes the email and points users to GitHub for reporting issues:
-
----
-
 # Security Policy
 
 ## Overview
