@@ -1,6 +1,7 @@
 # Mythology Quiz – Modern Edition
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [![Release](https://img.shields.io/github/v/release/Xyt564/mythologyquiz-game?color=blue)](https://github.com/Xyt564/mythologyquiz-game/releases)
 
 A sleek, modern **Greek and Roman mythology quiz** built with **C++** and **Dear ImGui**, featuring smooth animations, adaptive UI, and a polished look. Test your knowledge with up to **50 questions**!
