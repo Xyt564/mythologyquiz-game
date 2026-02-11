@@ -86,7 +86,7 @@ This script will:
 ```
 
 > The app will detect your screen resolution and adjust the layout for optimal display.
-> On Windows, you will need to install dependencies manually and compile the project yourself (Recommendation - install pre-compiled version).
+> On Windows, you will need to install dependencies manually and compile the project yourself (Recommendation - install pre-compiled version for convenience).
 
 ---
 
