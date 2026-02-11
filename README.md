@@ -41,6 +41,9 @@ For Linux and macOS:
 
 ```bash
 chmod +x mythologyquiz
+```
+
+```bash
 ./mythologyquiz
 ```
 
@@ -54,6 +57,9 @@ This ensures a smooth setup without building the project from source.
 
 ```bash
 git clone https://github.com/Xyt564/mythologyquiz-game.git
+```
+
+```
 cd mythologyquiz-game
 ```
 
@@ -61,6 +67,9 @@ cd mythologyquiz-game
 
 ```bash
 chmod +x setup.sh
+```
+
+```bash
 ./setup.sh
 ```
 
@@ -77,7 +86,7 @@ This script will:
 ```
 
 > The app will detect your screen resolution and adjust the layout for optimal display.
-> On Windows, you will need to install dependencies manually and compile the project yourself.
+> On Windows, you will need to install dependencies manually and compile the project yourself (Recommendation - install pre-compiled version).
 
 ---
 
@@ -86,9 +95,8 @@ This script will:
 1. Choose the number of questions (5, 10, 15, 25, or 50)
 2. Answer each question before the timer runs out
 3. After finishing, view your results:
-
-   * Quick summary with your score
-   * Detailed breakdown with your answers vs correct answers
+  * Quick summary with your score
+  * Detailed breakdown with your answers vs correct answers
 4. Return to the menu to play again
 
 ---
