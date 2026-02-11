@@ -1,4 +1,7 @@
-# Mythology Quiz - Modern Edition
+# Mythology Quiz – Modern Edition
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/Xyt564/mythologyquiz-game?color=blue)](https://github.com/Xyt564/mythologyquiz-game/releases)
 
 A sleek, modern **Greek and Roman mythology quiz** built with **C++** and **Dear ImGui**, featuring smooth animations, adaptive UI, and a polished look. Test your knowledge with up to **50 questions**!
 
@@ -6,13 +9,13 @@ A sleek, modern **Greek and Roman mythology quiz** built with **C++** and **Dear
 
 ## Features
 
-* **50 questions** on Greek and Roman mythology.
-* Smooth **animations**: fade, slide, and pulsing effects.
-* Modern **dark color scheme** with clean UI.
-* Responsive **layout adapts to your screen resolution**.
-* Automatic **OS detection**: Linux (all distros), macOS, and Windows (manual setup).
-* **Timer** with color-coded urgency.
-* Detailed results with correct answers and performance feedback.
+* **50 questions** on Greek and Roman mythology
+* Smooth **animations**: fade, slide, and pulsing effects
+* Modern **dark color scheme** with clean UI
+* **Responsive layout** that adapts to your screen resolution
+* Automatic **OS detection**: Linux, macOS, and Windows (Windows requires manual setup)
+* **Timer** with color-coded urgency
+* Detailed **results** with correct answers and performance feedback
 
 ---
 
@@ -20,61 +23,44 @@ A sleek, modern **Greek and Roman mythology quiz** built with **C++** and **Dear
 
 * **C++17** compiler
 * **OpenGL 3.3+**
-* **GLFW**
+* **GLFW** library
 * **Dear ImGui** library
-* **Linux, macOS, or Windows** (Windows requires manual setup)
+* **Linux, macOS, or Windows**
 
-> On Linux and Mac, `setup.sh` handles all dependencies automatically (works on Debian/Ubuntu, Fedora, Arch and Mac).
-
-
-Gotcha — you want to make it clear that people **don’t need to compile** because there’s already a release, but still give the Linux/Mac instructions in a clean, professional way. Here’s a polished version you can drop into your README:
+> On Linux and macOS, `setup.sh` handles all dependencies automatically (tested on Debian/Ubuntu, Fedora, Arch, and Mac).
 
 ---
 
-## Releases section
+## Getting Started
 
-If you prefer **not to compile the application yourself**, you can download the **pre-compiled version** from the [Releases](https://github.com/Xyt564/mythologyquiz-game/releases) section.
+### Option 1 – Pre-compiled release (recommended)
 
-For Linux and Mac users, you may need to give the executable permission before running it:
+If you prefer **not to compile the application**, you can download the **pre-compiled version** from the [Releases](https://github.com/Xyt564/mythologyquiz-game/releases) section.
+
+For Linux and macOS:
 
 ```bash
 chmod +x mythologyquiz
-```
-
-Then launch the app with:
-
-```bash
 ./mythologyquiz
 ```
 
-This ensures a smooth setup without needing to build the project from source.
+This ensures a smooth setup without building the project from source.
 
 ---
 
-If you want, I can also **rewrite your full “Getting Started / Installation” section** so the whole thing reads super professional, consistent, and easy to follow. That way, your README really shines. Do you want me to do that?
+### Option 2 – Compile from source
 
-
----
-
-## Installation & Setup (Linux and Mac)
-
-Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/Xyt564/mythologyquiz-game.git
-```
-
-```bash
 cd mythologyquiz-game
 ```
 
-Make the setup script executable and run it:
+2. Make the setup script executable and run it:
 
 ```bash
 chmod +x setup.sh
-```
-
-```bash
 ./setup.sh
 ```
 
@@ -84,36 +70,32 @@ This script will:
 * Compile the project
 * Generate a `launch.sh` script
 
----
-
-## Running the Quiz
-
-After setup, run the quiz with:
+3. Run the quiz:
 
 ```bash
 ./launch.sh
 ```
 
-* The app will **detect your screen resolution** and adjust the layout for optimal display.
-* On **Windows**, you'll need to install dependancies manually and compile manually.
+> The app will detect your screen resolution and adjust the layout for optimal display.
+> On Windows, you will need to install dependencies manually and compile the project yourself.
 
 ---
 
 ## How to Play
 
-1. Choose the number of questions (5, 10, 15, 25, or 50).
-2. Answer each question before the timer runs out.
+1. Choose the number of questions (5, 10, 15, 25, or 50)
+2. Answer each question before the timer runs out
 3. After finishing, view your results:
-* Quick summary with your score
-* Detailed breakdown with your answers vs correct answers
-4. Return to the menu to play again.
+
+   * Quick summary with your score
+   * Detailed breakdown with your answers vs correct answers
+4. Return to the menu to play again
 
 ---
 
 ## Screenshots
 
 ![Mythology Quiz Screenshot](assets/Screenshot.png)
-
 
 ---
 
@@ -125,14 +107,16 @@ mythologyquiz-game/
 ├── setup.sh          # Installs dependencies and compiles project
 ├── launch.sh         # Launches the quiz
 ├── README.md         # This file
-├──CMakeLists.txt     # Cmake file
-├── ImGui/            # Imgui git repo
-└── Build/            # Build folder with application inside
+├── CMakeLists.txt    # CMake build file
+├── ImGui/            # Dear ImGui repository
+└── Build/            # Build folder containing compiled application
 ```
 
 ---
 
-## MIT License
+## License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ```
 MIT License
