@@ -84,7 +84,7 @@ After setup, run the quiz with:
 
 ## Screenshots
 
-![Mythology Quiz Screenshot](assets/screenshot.png)
+![Mythology Quiz Screenshot](assets/Screenshot.png)
 
 
 ---
